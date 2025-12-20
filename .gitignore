@@ -25,3 +25,4 @@ tests/
 *.txt
 
 /savedChats
+.burnrate.json
