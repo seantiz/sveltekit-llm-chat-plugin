@@ -16,3 +16,6 @@ The `sendChat()` client-side task is just to give you an idea of how you'd wire 
 Remote functions were launched with response-request patterns in mind. They cannot currently maintain persistent streaming connections. The Svelte Discord has hinted at adding a stream remote function type for SSE in the future, but use traditional server endpoints (+server.js/ts) for now.
 
 IMPORTANT: Please do use +server.ts endpoints for your api key security!
+
+# To Do (December 2025)
+There's no tests written for `newConnection()` yet so PRs with test coverage are more than welcome!
