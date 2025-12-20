@@ -1,5 +1,9 @@
 # Changelog:
 
+## Svelte x Pieces is now Sveltekit LLM Chat Plugin (2025-12-20)
+
+We jailbroke the repo out of being locked into local websocket connections only and completely nixed this codebase being a chat app. There are hundreds of good LLM-chat app examples out there so we're pushing a plugin that builds excitement towards Sveltekit Remote Functions in the future.
+
 ## Svelte x Pieces v0.6.0 (2025-03-30)
 
 This is an all-around smaller build with less third-party code and less config files.
