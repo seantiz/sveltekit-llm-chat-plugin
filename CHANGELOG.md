@@ -1,5 +1,13 @@
 # Changelog:
 
+## Sveltekit LLM Chat Plugin 0.7.1 (2026-01-04)
+
+- Fixed logic error where WS instances were being spun up with hardcoded Pieces strings
+- Fixed bug where WS retry logic was in the wrong method
+- SSE connection has better error messages
+- SSE connection handles retries
+- Added getHealth() tool for any stream connection
+
 ## Svelte x Pieces is now Sveltekit LLM Chat Plugin (2025-12-20)
 
 We jailbroke the repo out of being locked into local websocket connections only and completely nixed this codebase being a chat app. There are hundreds of good LLM-chat app examples out there so we're pushing a plugin that builds excitement towards Sveltekit Remote Functions in the future.
